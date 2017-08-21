@@ -5,13 +5,13 @@ import {HttpModule} from '@angular/http';
 
 import {AppRoutingModule} from './app-routing.module';
 import {InMemoryWebApiModule} from 'angular-in-memory-web-api';
-import {InMemoryDataService} from './in-memory-data.service';
+import {InMemoryDataService} from './service/in-memory-data.service';
 
 import {AppComponent} from './app.component';
-import {DashboardComponent} from './dashboard.component';
-import {HeroesComponent} from './heroes.component';
-import {HeroDetailComponent} from './hero-detail.component';
-import {HeroService} from './hero.service';
+import {DashboardComponent} from './component/dashboard/dashboard.component';
+import {HeroesComponent} from './component/hero/heroes.component';
+import {HeroDetailComponent} from './component/hero-detail/hero-detail.component';
+import {HeroService} from './service/hero.service';
 
 @NgModule({
     imports: [
@@ -33,5 +33,3 @@ import {HeroService} from './hero.service';
 
 export class AppModule {
 }
-
-

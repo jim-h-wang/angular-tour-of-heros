@@ -11,7 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
-var hero_service_1 = require("./hero.service");
+var hero_service_1 = require("../../service/hero.service");
 var HeroesComponent = (function () {
     function HeroesComponent(heroService, router) {
         this.heroService = heroService;
